@@ -1,0 +1,3 @@
+[{"datatype": "categorical", "field": "gender", "unique": true, "type": "text"}, {"datatype": "categorical", "field": "state", "unique": true, "type": "text"}, {"datatype": "searchstring", "field": "searchstring", "unique": true, "type": "text"}, {"datatype": "time", "field": "year", "unique": true, "type": "text","derived":[
+        {"resolution":"year"}
+    ]}]
