@@ -7,14 +7,14 @@ bookworm/files:
 	mkdir -p bookworm/files/metadata
 
 bookworm/files/metadata/jsoncatalog.txt: bookworm/files
-	rm $@
+	rm -f $@
 	ln -s ../../../jsoncatalog.txt $@
 
 bookworm/files/metadata/field_descriptions.json: field_descriptions.json bookworm/files
 	cp $< $@
 
 bookworm/files/texts/input.txt: bookworm/files
-	rm $@
+	rm -f $@
 	ln -s ../../../input.txt $@
 
 #bookworm/files/texts/metadata/field_descriptions.json
